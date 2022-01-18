@@ -7,9 +7,12 @@ export default function Main() {
         <DivMain>
             {Posts.map((p, i) =>
                 <DivMap key={i}>
+                    <div>
                         <p className="date">{p.date}</p>
-                        <p className="title">{p.title}</p>
-                        <p className="msg">{p.msg}</p>
+                        <ion-icon name="heart-outline"></ion-icon>
+                    </div>
+                    <p className="title">{p.title}</p>
+                    <p className="msg">{p.msg}</p>
                 </DivMap>
             )}
         </DivMain>
@@ -21,6 +24,10 @@ const DivMain = styled.div`
 
     margin: 0 auto;
     margin-top: 315px;
+
+    @media (max-width: 600px) {
+        width: 90%
+    }
 `
 
 const DivMap = styled.div`
@@ -29,6 +36,7 @@ const DivMap = styled.div`
     width: 100%;
     background-color: #FFF;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
 
     display: flex;
     flex-direction: column;
@@ -36,6 +44,16 @@ const DivMap = styled.div`
     padding: 25px;
 
     margin-bottom: 50px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        ion-icon {
+            font-size: 30px;
+            color: #574AE8;
+        }
+    }
 
     .date {
         font-size: 16px;

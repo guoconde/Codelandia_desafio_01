@@ -29,6 +29,8 @@ const DivHeader = styled.div`
 
     background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
 
+    z-index: 2;
+
     .title {
         width: 70%;
 
@@ -41,6 +43,10 @@ const DivHeader = styled.div`
         font-size: 24px;
         font-weight: 400;
         line-height: 30px;
+
+        @media (max-width: 600px) {
+            width: 90%
+        }
     }
 
     .search {
@@ -57,6 +63,10 @@ const DivHeader = styled.div`
         gap: 20px;
 
         padding-left: 20px;
+
+        @media (max-width: 600px) {
+            width: 90%
+        }
 
         ion-icon {
             color: #FFF;
