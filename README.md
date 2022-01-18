@@ -12,7 +12,7 @@
 
 ### Link Deploy:
 
-[enter link description here](https://codelandia-desafio-01.vercel.app/)
+[Acesse o site, com o resultado final.](https://codelandia-desafio-01.vercel.app/)
 
 ### Liguagens utilizadas:
 
