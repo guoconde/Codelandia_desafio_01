@@ -7,7 +7,10 @@
     - O blog deve conter responsividade.
 
 ### Imagem do desafio:
-<img scr='./imagem_desafio_01.png' alt='imagem' />
+
+<p align="center">
+    <img scr='./imagem_desafio_01.png' alt='imagem' />
+</p>
 
 ### Liguagens utilizadas:
 
