@@ -1,6 +1,6 @@
-# Desafio - Codelandia
+# Desafio - Codelândia
 
-### Desafio 01
+### Desafio 01:
 
 - Desafio de Front-End
     - O objetivo deste projeto é replicar um blog de notícias.
@@ -9,6 +9,10 @@
 ### Imagem do desafio:
 
 ![enter image description here](https://raw.githubusercontent.com/guoconde/Codelandia_desafio_01/main/public/imagem_desafio_01.png)
+
+### Link Deploy:
+
+[enter link description here](https://codelandia-desafio-01.vercel.app/)
 
 ### Liguagens utilizadas:
 
