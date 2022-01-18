@@ -8,8 +8,8 @@
 
 ### Imagem do desafio:
 
-<p align="center">
-    <img scr='./imagem_desafio_01.png' alt='imagem' />
+<p align="left">
+    <img scr='imagem_desafio_01.png' alt='imagem' />
 </p>
 
 ### Liguagens utilizadas:
