@@ -9,7 +9,7 @@
 ### Imagem do desafio:
 
 <p align="left">
-    <img scr='https://github.com/guoconde/Codelandia_desafio_01/blob/main/imagem_desafio_01.png' alt='imagem' />
+    <img scr='./public/imagem_desafio_01.png' alt='imagem' />
 </p>
 
 ### Liguagens utilizadas:
