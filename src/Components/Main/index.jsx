@@ -3,12 +3,16 @@ import { Posts } from "./Posts/Information"
 
 import Notice from "./Posts"
 
-export default function Main() {
+export default function Main({ search }) {
+
+    function filterByText({ title }) {
+        return title.toUpperCase().includes(search.toUpperCase())
+    }
 
     return (
         <DivMain>
             {
-                Posts.map((p, i) =>
+                Posts.filter(filterByText).map((p, i) =>
                     <Notice post={p} key={i} />
                 )
             }

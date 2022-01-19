@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
-export default function Header() {
+export default function Header({ search, setSearch }) {
+
     return (
         <DivHeader>
             <div className="title">
@@ -9,7 +10,7 @@ export default function Header() {
             </div>
             <div className="search">
                 <ion-icon name="search-outline"></ion-icon>
-                <input type="search" name="Pesquisa" placeholder="Pesquisar no blog" />
+                <input type="search" name="Pesquisa" placeholder="Pesquisar no blog" value={search} onChange={e => setSearch(e.target.value)} />
             </div>
         </DivHeader>
     )
@@ -90,7 +91,7 @@ const DivHeader = styled.div`
         
         input {
             all: unset;
-            width: 70%;
+            width: 90%;
             
             font-family: Inter;
             font-size: 18px;
@@ -102,6 +103,7 @@ const DivHeader = styled.div`
             }
             
             @media (max-width: 600px) {
+                width: 80%;
                 font-family: Inter;
                 font-size: 14px;
                 font-weight: 500;
